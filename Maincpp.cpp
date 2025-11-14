@@ -130,4 +130,5 @@ void demoArrays() {
 	for (const auto& sim : simCards) {
 		cout << " " << sim.getPhoneNumber() << " - " << sim.getCarrier() << endl;
 	}
+	cout << "end" << endl;
 }
